@@ -57,14 +57,12 @@ export const LastActiveTimestamp = styled.div`
 `;
 
 export const PostImageWrapper = styled.div`
-  height: 400px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  flex-direction: column;
 `;
 
 export const PostImage = styled.img`
+  height: 400px;
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
@@ -115,4 +113,10 @@ export const PostCommentedByHistory = styled.div`
   p {
     margin: 5px 0;
   }
+`;
+
+export const AboutImage = styled.div`
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5px;
 `;

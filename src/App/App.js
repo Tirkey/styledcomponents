@@ -17,6 +17,7 @@ import {
   PostHistory,
   PostLikedByHistory,
   PostCommentedByHistory,
+  AboutImage,
 } from "../Components/Card";
 import ProfileOneImage from "../assets/Pretty.png";
 import PostOneSrc from "../assets/plants1.jpeg";
@@ -70,6 +71,10 @@ function App() {
           <PostLikedByHistory>
             You have 10 likes and 4 comments
           </PostLikedByHistory>
+          <AboutImage>
+            <strong>John Doe </strong>
+            Lorem ipsum dolor set...
+          </AboutImage>
           <PostCommentedByHistory>
             <p>
               <strong>User_random_one </strong>Lorem ipsum text
